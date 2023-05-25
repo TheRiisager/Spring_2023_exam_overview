@@ -11,4 +11,11 @@ It features a Neo4J graph database for route planning queries, a MongoDB for kee
 
 ### non-functional
 - The system must remain responsive under load, such that users will not miss connections due to unresponsiveness, etc...
-- 
+
+## Technologies
+
+**Neo4J**<br>
+Neo4j was chosen because it's graph structure lends itself well to the kinds of routing queries we want to do. Instead of doing a bunch of lookups in a bunch of different SQL tables, for example, we can simply use a pathfinding algorithm to traverse the nodes in our graph, using the relations between them. For this kind of system, where data is highly connected, and rarely updated, Neo4J is ideal.<br>
+
+**MongoDB**<br>
+
