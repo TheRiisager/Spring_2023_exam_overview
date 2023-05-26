@@ -19,3 +19,6 @@ Neo4j was chosen because it's graph structure lends itself well to the kinds of 
 
 **MongoDB**<br>
 We chose MongoDB because we needed a mass data store with geospatial features, but didn't necessarily need the stricter safety features of a relational database. MongoDB is also easier to scale horizontally, should we need that in future.
+
+**Redis**<br>
+We use Redis to cache query results from our databases. By fetching response-ready data from cache for identical queries, we avoid having to query the database an extra time, and then transform the result to something we can send as a response.
