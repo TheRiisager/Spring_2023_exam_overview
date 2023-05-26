@@ -4,6 +4,28 @@
 This project is a route planning app for the New York City public transit network, with a function to view points of interest near the stops.<br>
 It features a Neo4J graph database for route planning queries, a MongoDB for keeping points of interest and doing geospatial queries for them, and redis for caching API request data.<br>
 
+## Use cases
+For this project we only have a single type of user in mind, which is people who are unfamiliar with NYC an it's public transit network. 
+
+### primary use case
+find best route between two points, while informing user about the area.
+
+**primary actor**: Unfamiliar user (tourist/new resident)
+
+**goal**: Find their way around the city easily, while organically discovering places.
+
+**preconditions**:<br>
+- The user has the route planning site open on a device.
+- The device has internet
+- The user has a starting location and a destination to input
+
+**Main success scenario**<br>
+- The user opens the site, and inputs their starting location and destination
+- The user clicks the "find route" button
+- The app displays one or more routes that will take the user to their destination
+- The user clicks on one of the stops on the map
+- The app displays a number of points of interest around the station 
+
 ## requirements
 ### functional
 - The system should be able to provide a viable route between any two stops that can be connected by the network.
