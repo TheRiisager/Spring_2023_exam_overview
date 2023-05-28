@@ -51,3 +51,8 @@ We use Redis to cache query results from our databases. By fetching response-rea
 For the architecture we chose a simple three layer monolithic architecture, with a frontend layer, an API that serves data to the frontend, and a database layer consisting of our three databases.<br>
 For an application of larger scope, it might have been wiser to choose a service based architecture, and split up, for example, the route planning API logic, and the logic for finding points of interest.<br>
 But since the scope of our application is fairly limited, the monolithic approach saved us a lot of time that would have been spent integrating services and making sure they deploy correctly.
+
+## Repositories
+API: https://github.com/mads-XD-kristensen/RedisCache<br>
+Frontend: https://github.com/KD131/soft-sem1-databases-exam<br>
+Neo4J setup scripts: https://github.com/TheRiisager/spring2023_exam_neo4j_setup<br>
