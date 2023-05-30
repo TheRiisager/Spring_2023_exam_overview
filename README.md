@@ -1,8 +1,8 @@
 # Spring 2023 exam project overview
 
 ## Group
-Kasper Overgaard Dahl - cph-kd131@cphbusiness.dk
-Mads Højris Kristensen - cph-mk613@cphbusiness.dk
+Kasper Overgaard Dahl - cph-kd131@cphbusiness.dk<br>
+Mads Højris Kristensen - cph-mk613@cphbusiness.dk<br>
 Frederik Riisager Johnsen - cph-fj111@cphbusiness.dk
 
 ## Video
