@@ -1,5 +1,8 @@
 # Spring 2023 exam project overview
 
+## Video
+https://youtu.be/_loei6UCJKQ
+
 ## Overview
 This project is a route planning app for the New York City public transit network, with a function to view points of interest near the stops.<br>
 It features a Neo4J graph database for route planning queries, a MongoDB for keeping points of interest and doing geospatial queries for them, and redis for caching API request data.<br>
