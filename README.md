@@ -8,6 +8,11 @@ Frederik Riisager Johnsen - cph-fj111@cphbusiness.dk
 ## Video
 https://youtu.be/_loei6UCJKQ
 
+## Repositories
+API: https://github.com/mads-XD-kristensen/RedisCache<br>
+Frontend: https://github.com/KD131/soft-sem1-databases-exam<br>
+Neo4J setup scripts: https://github.com/TheRiisager/spring2023_exam_neo4j_setup<br>
+
 ## Overview
 This project is a route planning app for the New York City public transit network, with a function to view points of interest near the stops.<br>
 It features a Neo4J graph database for route planning queries, a MongoDB for keeping points of interest and doing geospatial queries for them, and redis for caching API request data.<br>
@@ -60,7 +65,3 @@ For the architecture we chose a simple three layer monolithic architecture, with
 For an application of larger scope, it might have been wiser to choose a service based architecture, and split up, for example, the route planning API logic, and the logic for finding points of interest.<br>
 But since the scope of our application is fairly limited, the monolithic approach saved us a lot of time that would have been spent integrating services and making sure they deploy correctly.
 
-## Repositories
-API: https://github.com/mads-XD-kristensen/RedisCache<br>
-Frontend: https://github.com/KD131/soft-sem1-databases-exam<br>
-Neo4J setup scripts: https://github.com/TheRiisager/spring2023_exam_neo4j_setup<br>
